@@ -47,7 +47,7 @@ namespace VulnerableApplication
         {
 
             app.UseDeveloperExceptionPage();
-         //e this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+         //r production scenarios, see https://aka.ms/aspnetcore-hsts.
             app.UseHsts(); 
 
             app.UseHttpsRedirection();
